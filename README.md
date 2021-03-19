@@ -1,20 +1,11 @@
 
-# well come to mt repository
-
-## 반갑습니다. 코딩 비기너 최준호 입니다.
-
-문의사항 있으신 경우 wnsghqwe@gmail.com으로 연락주세요.
-
-- [ ] 체크박스(false)
-- [x] 체크박스(true)
-
 # 소개
 
-<img alt="깃헙 프로필 사진" src="https://raw.githubusercontent.com/seokju-na/resume/bf557431b5e7b5b84fed25020885dcc5e4ad79d9/assets/me_at_github.png" width="200">
 
-* 나석주
-* Email : seokju.me@gmail.com
-* Github : [github.com/seokju-na](https://github.com/seokju-na)
+
+* 최준호
+* Email : wnsghqwe@gmail.com
+* Github : [github.com/seokju-na](https://github.com/junho1124/jino.dev.gita)
 
 
 # 경력
