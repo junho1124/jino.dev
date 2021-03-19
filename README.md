@@ -21,7 +21,7 @@
 
 
 # 자격증 내역
-<img src="savage.jpg">
+<img src="age.jpg">
 
 
 ### 개발
