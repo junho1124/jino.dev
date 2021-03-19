@@ -32,9 +32,9 @@
 
 
 
-[link keyword][id]
+[최준호의 Git ERL][id]
 
-[id]: URL "Optional Title here"
+[id]: (https://github.com/junho1124/jino.dev) "최준호"
 
 // code
 Link: [Google][googlelink]
