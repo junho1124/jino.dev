@@ -24,10 +24,22 @@
 <img src="age.jpg">
 
 
-### 교육 받고 있는 개발 툴
- - |Flutter|VScode|
-    ----------------
-    |교육중|교육중|
+### 교육 받고 있는 개발 툴 
+|Tool|언어|상태|
+|------|---|---|
+|Flutter|dart|교육중|
+|VScode|테스트2|교육중|
+
+
+
+[link keyword][id]
+
+[id]: URL "Optional Title here"
+
+// code
+Link: [Google][googlelink]
+
+[googlelink]: https://google.com "Go google"
 
 
 ## TownUS <img src="https://user-images.githubusercontent.com/13250888/53622388-fb19ff00-3c3c-11e9-82f4-745111bf394e.png" alt="타운컴퍼니 로고" width="22" height="22"/>
