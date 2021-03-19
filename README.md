@@ -1,5 +1,5 @@
 
-<p # well come to mt repository></p>
+# well come to mt repository
 
 ## 반갑습니다. 코딩 비기너 최준호 입니다.
 
