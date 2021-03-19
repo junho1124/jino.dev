@@ -21,7 +21,8 @@
 
 
 # 자격증 내역
-<img src="save.jpeg">
+<img src="savage.jpg">
+
 
 ### 개발
 - Electron 프레임워크 기반의 데스크탑 애플리케이션
