@@ -8,29 +8,20 @@
 * Github : [github.com/seokju-na](https://github.com/junho1124/jino.dev.gita)
 
 
-# 경력
-* [비바리퍼블리카](https://toss.im)
-    - Frontend Developer
-    - 기간 : 2019.2-
-* [타운컴퍼니](https://fb.com/towncompany)
-    - R&D 파트 개발팀
-    - 웹 프론트 엔지니어
-    - 기간 : 2017.9-2018.2, 2018.8-2018.12
-* [두닷두](http://www.dodotdo.com)
-    - 웹 프론트 엔지니어
-    - 기간 : 2016.3-2017.2
+# 학력 및 경력
+* [한국조리과학고등학교](http://www.kcas.hs.kr/)
+    - 기간 : 2010 - 2012
+* [오산대학교](https://www.osan.ac.kr/)
+    - 호텔조리과(3년제)
+    - 4.1학점으로 졸업
+    - 기간 : 2013 - 2018
+* [아워홈](https://www.ourhome.co.kr/)
+    - 조리실장 및 점장 업무
+    - 기간 : 2018.4.19 -2020.12.31
 
 
-# 프로젝트
-## Toss <img src="https://user-images.githubusercontent.com/13250888/53622309-b8582700-3c3c-11e9-927d-b2dbc3465892.png" alt="토스 로고" width="22" height="22"/>
-`비바리퍼블리카, 2019.2-`
-
-BankService Silo에서 프론트엔드 개발을 하고 있습니다.
-
-## Geek's Diary
-`개인 프로젝트, 2017.5-`
-
-개발자를 위한 TIL(Today I Learned) 작성 툴로 Markdown과 코드를 혼합하여 작성할 수 있는 문서 편집기와 버전 관리 시스템의 연동이 큰 특징입니다. 2019년 1월 3일에 베타 버전을 배포하였으며 GitHub 저장소 주소는 [seokju-na/geeks-diary](https://github.com/seokju-na/geeks-diary) 입니다.
+# 자격증 내역
+<img src="save.jpeg">
 
 ### 개발
 - Electron 프레임워크 기반의 데스크탑 애플리케이션
