@@ -14,7 +14,7 @@
 # 학력 및 경력
 * [한국조리과학고등학교](http://www.kcas.hs.kr/)
     - 기간 : 2010 - 2012
-  - <img src="highschool.jpg>
+    - <img src="highschool.jpg">
 * [오산대학교](https://www.osan.ac.kr/)
     - 호텔조리과(3년제)
     - 4.1학점으로 졸업
