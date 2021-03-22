@@ -14,15 +14,16 @@
 # 학력 및 경력
 * [한국조리과학고등학교](http://www.kcas.hs.kr/)
     - 기간 : 2010 - 2012
-    - <img src="highschool.jpg">
+    <img src="highschool.jpg">
 * [오산대학교](https://www.osan.ac.kr/)
     - 호텔조리과(3년제)
     - 4.1학점으로 졸업
     - 기간 : 2013 - 2018
+    <img src="osan.png">
 * [아워홈](https://www.ourhome.co.kr/)
     - 조리실장 및 점장 업무
     - 기간 : 2018.4.19 -2020.12.31
-
+    <img src="ourhome.jfif">
 
 # 자격증 내역
 <img src="age.jpg">
