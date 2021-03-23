@@ -27,21 +27,15 @@
 
 # 자격증 내역
 <img src="age.jpg">
-
+   
 
 # 교육 받고 있는 개발 툴 
 
 - ## Flutter
-    <img scr="flutter.png">
-
-    ### 사용가능 언어
-    dart : 현재 교육 중
+    <img src="flutter.png">
 
 - ## VScode
-    <img scr="VScode.png">
-
-    ### 사용가능 언어
-    markdaun : 현재 교육중
+    <img src="VScode.png">
 
 >|Tool|언어|상태|
 >|------|---|---|
