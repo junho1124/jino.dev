@@ -29,25 +29,28 @@
 <img src="age.jpg">
 
 
-### 교육 받고 있는 개발 툴 
-|Tool|언어|상태|
-|------|---|---|
-|Flutter|dart|교육중|
-|VScode|MarkDown|교육중|
+# 교육 받고 있는 개발 툴 
 
-![1111](age.jpg "2222222")
+- ## Flutter
+    <img scr="flutter.png">
 
-Link: [최준호의 Git URL][링크]
+    ### 사용가능 언어
+    dart : 현재 교육 중
 
-[링크]: https://github.com/junho1124/jino.dev "최준호"
+- ## VScode
+    <img scr="VScode.png">
 
-// code
-Link: [Google][googlelink]
+    ### 사용가능 언어
+    markdaun : 현재 교육중
 
-[googlelink]: https://google.com "Go google"
+>|Tool|언어|상태|
+>|------|---|---|
+>|Flutter|dart|교육중|
+>|VScode|MarkDown|교육중|
 
-[최준호의 GIT](https://github.com/junho1124/jino.dev)
 
+Copy
+======
 
 ## TownUS <img src="https://user-images.githubusercontent.com/13250888/53622388-fb19ff00-3c3c-11e9-82f4-745111bf394e.png" alt="타운컴퍼니 로고" width="22" height="22"/>
 `타운컴퍼니, 웹 프론트엔드 개발, 2017.8-2018.3, 2018.8-12`
