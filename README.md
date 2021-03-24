@@ -10,7 +10,8 @@
 >요리하는 프로그래머 최준호 입니다
 ><img src="email.png"> : wnsghqwe@gmail.com
 
-[![Facebook](facebook.png)](https://www.facebook.com/wnsghqwe/) [![github](github.png)](https://github.com/junho1124/jino.dev.gita)
+>## My SNS 
+>[![Facebook](facebook.png)](https://www.facebook.com/wnsghqwe/) [![github](github.png)](https://github.com/junho1124/jino.dev.gita)
 
 
 # 학력 및 경력 :man:
