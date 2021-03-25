@@ -14,7 +14,7 @@
 >## My SNS 
 >[![Facebook](facebook.png)](https://www.facebook.com/wnsghqwe/) [![github](github.png)](https://github.com/junho1124/jino.dev.gita)
 
-
+123
 # 학력 및 경력 :man:
 * [한국조리과학고등학교](http://www.kcas.hs.kr/) :school_satchel:
     - 기간 : 2010 - 2012
@@ -36,10 +36,14 @@
    
 
 # 교육 받고 있는 개발 툴  <img alt="flutter" src="https://engineering.linecorp.com/wp-content/uploads/2019/08/flutter1.png" width="32" height="32"/> <img alt="VScode" src="https://i1.daumcdn.net/thumb/C185x200/?fname=https://blog.kakaocdn.net/dn/PPorW/btqWsIwj0ou/sUzQm3B0KV6unXudUhjd6K/img.png" width="32" height="32"/>
+  <hr>
+  <p align="center">
+ <img src="https://media.giphy.com/media/8UHRm5oY4k4FDxq5QG/giphy.gif" width="30px" alt="GitHub-Status"/>&nbsp;<i><b>GitHub Stats</b></i><img src="https://media.giphy.com/media/8UHRm5oY4k4FDxq5QG/giphy.gif" width="30px" alt="GitHub-Status"/></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=akash-chowrasia&show_icons=true&locale=en&layout=compact" alt="Junho's most" /></p>
 
-[! [Anurag의 GitHub 통계] (https://github-readme-stats.vercel.app/api ? username = anuraghazra )] (https://github.com/anuraghazra/github-readme-stats)
-https://github.com/junho1124https://github.com/junho1124https://github.com/junho1124https://github.com/junho1124https://github.com/junho1124
-https://github.com/junho1124https://github.com/junho1124https://github.com/junho1124https://github.com/junho1124https://github.com/junho1124https://github.com/junho1124https://github.com/junho1124https://github.com/junho1124https://github.com/junho1124https://github.com/junho1124https://github.com/junho1124
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=akash-chowrasia&show_icons=true&locale=en" alt="akash-chowrasia" width="410" /></p>
+
+<hr>
 - ## Flutter
     <img src="flutter.png">
 
