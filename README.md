@@ -7,7 +7,7 @@
 <img src="prople.jpg" width="250" height="250"/>
 
 >## 최준호
->요리하는 프로그래머 최준호 입니다
+>요리하는 프로그래머 최준호 입니다 :fork_and_knife:
 >
 ><img src="email.png"> : wnsghqwe@gmail.com
 
