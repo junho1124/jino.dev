@@ -41,7 +41,7 @@
 - 정보통신기사 취득 목표로 학습중
    
 
-# 교육 받고 있는 개발 툴  <img alt="flutter" src="https://engineering.linecorp.com/wp-content/uploads/2019/08/flutter1.png" width="32" height="32"/> <img alt="VScode" src="https://i1.daumcdn.net/thumb/C185x200/?fname=https://blog.kakaocdn.net/dn/PPorW/btqWsIwj0ou/sUzQm3B0KV6unXudUhjd6K/img.png" width="32" height="32"/>
+# 사용 가능 개발 툴  <img alt="flutter" src="https://engineering.linecorp.com/wp-content/uploads/2019/08/flutter1.png" width="32" height="32"/> <img alt="VScode" src="https://i1.daumcdn.net/thumb/C185x200/?fname=https://blog.kakaocdn.net/dn/PPorW/btqWsIwj0ou/sUzQm3B0KV6unXudUhjd6K/img.png" width="32" height="32"/>
  
 
 <hr>
@@ -52,7 +52,4 @@
 - ## VScode
     <img src="VScode.png">
 
->|Tool|언어|상태|
->|------|---|---|
->|Flutter|dart|교육중|
->|VScode|MarkDown|교육중|
+# 사용 가능 언어 <img alt="dart" src="https://img.icons8.com/color/452/dart.png" width="32" height="32"/> <img art="HTML" src="https://icons-for-free.com/iconfiles/png/512/file+html+page+paper+icon-1320165845964400087.png" width="32" height="32"/> <img alt="JavaScript" src="https://cdn.pixabay.com/photo/2017/03/30/17/41/javascript-2189147_960_720.png" width="32" height="32"/>

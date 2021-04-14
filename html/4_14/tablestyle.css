@@ -6,8 +6,13 @@
 span{
     display: inline-block;
     width: 100%;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 100px;
 }
 
 .center{
-    text-align: center;
+    text-align: left;
+    text-indent: 100px;
 }
