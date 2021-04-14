@@ -1,39 +1,13 @@
-body{
-    text-align: center;
-    margin: auto;
+
+.red{
+    color: #ff0000;
 }
 
-table{
+span{
     display: inline-block;
-    width: auto;
-    height: auto;
-}
-
-table,td {
-    border: 1px #000000 solid;
-}
-
-.left{
-    text-align: left;
-}
-
-.right{
-    text-align: right;
+    width: 100%;
 }
 
 .center{
     text-align: center;
-}
-
-.red{
-    background-color: red;
-}
-
-.height16{
-    display: inline-block;
-    height: auto;
-}
-.width33{
-    display: inline-block;
-    width: auto;
 }
