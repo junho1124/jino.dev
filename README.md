@@ -44,8 +44,6 @@
 # 사용 가능 개발 툴  <img alt="flutter" src="https://engineering.linecorp.com/wp-content/uploads/2019/08/flutter1.png" width="32" height="32"/> <img alt="VScode" src="https://i1.daumcdn.net/thumb/C185x200/?fname=https://blog.kakaocdn.net/dn/PPorW/btqWsIwj0ou/sUzQm3B0KV6unXudUhjd6K/img.png" width="32" height="32"/>
  
 
-<hr>
-
 - ## Flutter
     <img src="flutter.png">
 
@@ -53,3 +51,12 @@
     <img src="VScode.png">
 
 # 사용 가능 언어 <img alt="dart" src="https://img.icons8.com/color/452/dart.png" width="32" height="32"/> <img art="HTML" src="https://icons-for-free.com/iconfiles/png/512/file+html+page+paper+icon-1320165845964400087.png" width="32" height="32"/> <img alt="JavaScript" src="https://cdn.pixabay.com/photo/2017/03/30/17/41/javascript-2189147_960_720.png" width="32" height="32"/>
+
+- ## Dart
+    <img src="https://media.vlpt.us/images/ssorry_choi/post/b9b0af59-8564-4869-b224-ee6faa404403/dart-logo-for-shares.png" height="200px">
+
+- ## HTML
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNHz2kHetK7NHJQJS_Qdl9Ej6WTBuR9uevPOxkAr-ZuWMElFfgZavGFuKVBJvLO3lQt2M&usqp=CAU" height="200px">
+
+- ## JavaScript
+    <img src="https://blog.kakaocdn.net/dn/CFNBJ/btqCNFRVBaT/3Ua6HeLfKO73WtHfhlWTy0/img.png" height="200px">
