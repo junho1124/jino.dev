@@ -1,0 +1,46 @@
+div
+{
+    display: inline-block;
+}
+
+.big
+{
+    position: relative;
+    border: 1px #000 solid;
+    width: 300px;
+    height: 450px;
+    margin-left: 30%;
+}
+#title
+{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    line-height: 50px;
+    text-indent: 10px;
+}
+
+#content
+{
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    width: 300px;
+    height: 400px;
+    background-color: #cccc;
+    text-indent: 10px;
+}
+
+.small
+{
+    position: relative;
+    width: 260px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: white;
+    margin-left: 20px;
+    line-height: 50px;
+}
