@@ -25,6 +25,6 @@ div
 .img
 {
     height: 500px;
-    -webkit-filter: blur(10px);
-    filter: blur(10px);
+    -webkit-filter: drop-shadow(-50px 10px 10px #ff0000);
+    filter: drop-shadow(-50px 10px 10px #ff0000);
 }
