@@ -25,7 +25,7 @@ div
 .img
 {
     height: 500px;
-    -webkit-filter: opacity(20%);
-    filter: opacity(20%);
+    -webkit-filter: sepia(50%);
+    filter: sepia(50%);
     border-radius: 100px;
 }
