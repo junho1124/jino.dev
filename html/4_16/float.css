@@ -25,6 +25,7 @@ div
 .img
 {
     height: 500px;
-    -webkit-filter: drop-shadow(-50px 10px 10px #ff0000);
-    filter: drop-shadow(-50px 10px 10px #ff0000);
+    -webkit-filter: opacity(20%);
+    filter: opacity(20%);
+    border-radius: 100px;
 }
