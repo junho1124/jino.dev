@@ -22,3 +22,9 @@ div
 {
     clear: both;
 }
+.img
+{
+    height: 500px;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
