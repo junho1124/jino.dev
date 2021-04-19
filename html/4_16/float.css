@@ -25,7 +25,11 @@ div
 .img
 {
     height: 500px;
+
     -webkit-filter: sepia(50%);
     filter: sepia(50%);
+    
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
     border-radius: 100px;
 }
