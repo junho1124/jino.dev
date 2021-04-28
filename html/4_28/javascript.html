@@ -4,17 +4,16 @@
     </head>
     <body>
         <script>
-            var text;
-            function ask(text) {
-                text = prompt('이름을 입력 해 주세요')
-                    if(text == '') {
+            function ask() {
+                var text = prompt('이름을 입력 해 주세요')
+                    if(text == '' || text == null) {
                     confirm('입력 해 주세요')
                     return ask();
                 } else {
                     alert(text + '님 안녕하세요.')
                 }
             }
-            ask(text);
+            ask();
         </script>
     </body>
 </html>
