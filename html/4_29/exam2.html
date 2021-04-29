@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>exam2</title>
+        <style>
+            div{
+                float: left;
+                position: relative;
+                margin: 10px;
+                width: 100px;
+                height: 30px;
+                text-align: center;
+            }
+            #body{
+                width: 50%;
+                height: 50%;
+                position: absolute;
+                top: 40%;
+                left: 38%;
+            }
+            .gray{
+                background-color: gray;
+                color: white;
+                cursor: pointer;
+            }
+            .white{
+                background-color: white;
+                color: black;
+                border: 1px black solid;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="body">
+            <div class="gray" id="html">html</div>
+            <div class="gray" id="css">css</div>
+            <div class="gray" id="javascript">javascript</div>
+        </div>
+
+        <script>
+            window.onload = function() {
+                var html = document.getElementById("html");
+                var css = document.getElementById("css");
+                var javascript = document.getElementById("javascript");
+                grayall = () => {
+                    html.className = "gray"
+                    css.className = "gray"
+                    javascript.className = "gray"
+                }
+
+                html.onclick = function() {
+                    console.log("클릭");
+                    grayall();
+                    html.className = "white"
+                }
+                css.onclick = function() {
+                    console.log("클릭");
+                    grayall();
+                    css.className = "white"
+                }
+                javascript.onclick = function() {
+                    console.log("클릭");
+                    grayall();
+                    javascript.className = "white"
+                }
+
+            };
+            
+
+        </script>
+    </body>
+</html>
