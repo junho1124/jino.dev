@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>exam</title>
+        <style>
+            #form{
+                position: absolute;
+                top: 48%;
+                left: 45%;
+            }
+            #text{
+                text-align: center;
+            }
+            .hidden{
+                display: none;
+            }
+            .view
+            {
+                display: block;
+            }
+        </style>
+    </head>
+    <body onload="colorchange">
+        <div class="hidden" id="form">
+            <div id="text"></div>
+            <button onclick="setcolor('#FF0000')">빨강</button>
+            <button onclick="setcolor('#0000FF')">파랑</button>
+            <button onclick="setcolor('#00FF00')">초록</button>
+        </div>
+        <script>
+            colorchange = () => {
+                let text = prompt("텍스트를 입력 해 주세요.")
+                if ( text == "" || text == null) {
+                    alert("텍스트 값을 입력 해 주세요.")
+                    colorchange();
+                } else {
+                    document.getElementById("text").innerHTML = text
+                    document.getElementById("form").className = "view"
+            }
+            }
+            setcolor = (color) => {
+                if (color == "#FF0000") {
+                    alert('빨간색으로 변경 됩니다.')
+                }
+                if (color == "#0000FF") {
+                    alert('파란색으로 변경 됩니다.')
+                }
+                if (color == "#00FF00") {
+                    alert('초록색으로 변경 됩니다.')
+                }
+                document.getElementById("text").style.color = color;
+            }
+            colorchange();
+            
+        </script>
+    </body>
+</html>
