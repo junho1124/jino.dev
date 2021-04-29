@@ -6,17 +6,17 @@
         <script>
             function numAgain() {
                 var num = parseInt(prompt('숫자를 입력 해 주세요'));
-            if(typeof num != 'number' || isNaN(num)) {
-                alert('숫자를 입력 해 주세요');
-                numAgain();
-            } else if(1 > num || num > 100) {
-                alert('1이상 100 이하를 넣어 주세요.')
-            } else if(1 <= num <= 100) {
-                for(i = 1; i <= 100; i++) {
-                    console.log(i)
+                if(typeof num != 'number' || isNaN(num)) {
+                    alert('숫자를 입력 해 주세요');
+                    numAgain();
+                } else if(1 > num || num > 100) {
+                    alert('1이상 100 이하를 넣어 주세요.')
+                } else if(1 <= num <= 100) {
+                    for(i = 1; i <= num; i++) {
+                        console.log(i)
+                    }
+                    alert('완료 되었습니다.');
                 }
-                alert('완료 되었습니다.');
-            }
             }
             numAgain();
             
