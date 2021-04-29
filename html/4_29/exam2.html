@@ -28,6 +28,11 @@
                 border: 1px black solid;
                 cursor: pointer;
             }
+            .red{
+                background-color: red;
+                color: white;
+                cursor: pointer;
+            }
         </style>
     </head>
     <body>
@@ -49,19 +54,32 @@
                 }
 
                 html.onmouseover = function() {
-                    console.log("클릭");
-                    grayall();
+                    console.log("클릭");    
                     html.className = "white"
                 }
                 css.onmouseover = function() {
                     console.log("클릭");
-                    grayall();
                     css.className = "white"
                 }
                 javascript.onmouseover = function() {
                     console.log("클릭");
-                    grayall();
                     javascript.className = "white"
+                }
+
+                html.onclick = function() {
+                    console.log("클릭");
+                    grayall();
+                    html.className = "red"
+                }
+                css.onclick = function() {
+                    console.log("클릭");
+                    grayall();
+                    css.className = "red"
+                }
+                javascript.onclick = function() {
+                    console.log("클릭");
+                    grayall();
+                    javascript.className = "red"
                 }
 
             };
