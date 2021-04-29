@@ -61,25 +61,45 @@
         </style>
     </head>
     <body>
-        <div id='first1'></div>
-        <div id='first2'></div>
-        <div id='first3'></div>
-        <div id='first4'></div>
-        <div id='first5'></div>
-        
+
         <script>
+
+            //자바스크립트로 HTML 작성
+            document.write("<div id='first1'></div>");
+            document.write("<div id='first2'></div>");
+            document.write("<div id='first3'></div>");
+            document.write("<div id='first4'></div>");
+            document.write("<div id='first5'></div>");
+
+            //자바스크립트의 셀렉터 설정
             let div1 = document.getElementById("first1");
             let div2 = document.getElementById("first2");
             let div3 = document.getElementById("first3");
             let div4 = document.getElementById("first4");
             let div5 = document.getElementById("first5");
 
+            let red = document.getElementsByClassName("red")
+
+            //클래스 이름 설정
             div1.className = 'blue';
             div2.className = 'red';
             div3.className = 'green';
             div4.className = 'purple';
             div5.className = 'iu';
 
+            //셀렉터 안에 텍스트 입력
+            div1.innerHTML = "1";
+            div2.innerHTML = "2";
+            div3.innerHTML = "3";
+            div4.innerHTML = "4";
+
+            //셀렉터 스타일 수정
+            div1.style.textAlign = "center"
+            div2.style.textAlign = "center"
+            div3.style.textAlign = "center"
+            div4.style.textAlign = "center"
+
         </script>
+
     </body>
 </html>
