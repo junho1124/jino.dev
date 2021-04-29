@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>javascript</title>
+        <style>
+            div{
+                display: inline-block;
+                border: 1px black solid;
+            }
+
+            #first1{
+                width: 400px;
+                height: 200px;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+            }
+            #first2{
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                top: 0px;
+                left: 400px;
+            }
+            #first3{
+                width: 400px;
+                height: 200px;
+                position: absolute;
+                top: 400px;
+                left: 200px;
+            }
+            #first4{
+                width: 200px;
+                height: 400px;
+                position: absolute;
+                top: 200px;
+                left: 0px;
+            }
+            #first5{
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                top: 200px;
+                left: 200px;
+            }
+            .blue{
+                background-color: blue;
+            }
+            .red{
+                background-color: red;
+            }
+            .green{
+                background-color: green;
+            }
+            .purple{
+                background-color: purple;
+            }
+            .iu{
+                background-image: url(../4_7/img/b.jpeg);
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <div id='first1'></div>
+        <div id='first2'></div>
+        <div id='first3'></div>
+        <div id='first4'></div>
+        <div id='first5'></div>
+        
+        <script>
+            let div1 = document.getElementById("first1");
+            let div2 = document.getElementById("first2");
+            let div3 = document.getElementById("first3");
+            let div4 = document.getElementById("first4");
+            let div5 = document.getElementById("first5");
+
+            div1.className = 'blue';
+            div2.className = 'red';
+            div3.className = 'green';
+            div4.className = 'purple';
+            div5.className = 'iu';
+
+        </script>
+    </body>
+</html>
