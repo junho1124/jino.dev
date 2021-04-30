@@ -5,8 +5,8 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <body>
         
-        <button id="btn1">attr 변경</button>
-        <button id="btn2">attr 확인</button>
+        <button id="btn1">css red</button>
+        <button id="btn2">css width</button>
 
         <div id="text">now</div>
         <a href="" id="link">link</a>
@@ -17,12 +17,10 @@
             $(function() {
 
                 $("#btn1").on("click",function() {
-                    let url = prompt("주소를 입력 해 주세요.")
-                    $("#link").attr("href",url)
+                    $("#text").css("color","red");
                 });
                 $("#btn2").on("click",function() {
-                    console.log($("#link").attr("href"));
-                    $("#link").attr("href")
+                    $("#text").css("fontwidth","100%");
                 });
 
 
