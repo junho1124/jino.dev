@@ -5,22 +5,24 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <body>
         
-        <button id="btn1">append</button>
-        <button id="btn2">prepend</button>
+        <button id="btn1">attr 변경</button>
+        <button id="btn2">attr 확인</button>
 
         <div id="text">now</div>
+        <a href="" id="link">link</a>
 
         <script>
             
 
             $(function() {
-                let codes = "<b>text<b/>";
 
                 $("#btn1").on("click",function() {
-                    $("#text").append(codes);
+                    let url = prompt("주소를 입력 해 주세요.")
+                    $("#link").attr("href",url)
                 });
                 $("#btn2").on("click",function() {
-                    $("#text").prepend(codes);
+                    console.log($("#link").attr("href"));
+                    $("#link").attr("href")
                 });
 
 
