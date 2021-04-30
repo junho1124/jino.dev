@@ -1,28 +1,71 @@
 <html>
     <head>
         <title>jquery</title>    
+        <style>
+            body
+            {
+                width: 100%;
+                height: 100%;
+            }
+
+            .hidden
+            {
+                display: none;
+            }
+
+            .show
+            {
+                display: block;
+                position: absolute;
+                text-align: center;
+                top: 40%;
+                left: 47%;
+            }
+            
+        </style>
     </head>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <body>
         
-        <button id="btn1">css red</button>
-        <button id="btn2">css width</button>
-
-        <div id="text">now</div>
-        <a href="" id="link">link</a>
-
+            <div id="body">
+                <div id="text"></div>
+                <button id="btn1">빨강</button>
+                <button id="btn2">파랑</button>
+                <button id="btn3">초록</button>
+            </div>
+       
+        
         <script>
             
 
-            $(function() {
-
-                $("#btn1").on("click",function() {
-                    $("#text").css("color","red");
+            $(function ask() 
+            {
+                $("#body").css("class","hidden");
+                let text = prompt()
+                if (text == '' || text == null) 
+                {
+                    alert("텍스트를 입력 해 주세요.")
+                    ask();
+                } else {
+                    $("#text").append(text);
+                    $("#body").attr("class","show")
+                    $("#text").css("font-size","50px")
+                }
+                $("#btn1").on("click",function() 
+                {
+                    $("#text").css("color","red")
+                    alert("빨간색으로 변경 되었습니다.")
                 });
-                $("#btn2").on("click",function() {
-                    $("#text").css("fontwidth","100%");
+                $("#btn2").on("click",function() 
+                {
+                    $("#text").css("color","blue")
+                    alert("파란색으로 변경 되었습니다.")
                 });
-
+                $("#btn3").on("click",function() 
+                {
+                    $("#text").css("color","green")
+                    alert("초록색으로 변경 되었습니다.")
+                });
 
             })
             
