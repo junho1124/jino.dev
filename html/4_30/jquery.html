@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>jquery</title>    
+    </head>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <body>
+        
+        <button id="btn1">append</button>
+        <button id="btn2">prepend</button>
+
+        <div id="text">now</div>
+
+        <script>
+            
+
+            $(function() {
+                let codes = "<b>text<b/>";
+
+                $("#btn1").on("click",function() {
+                    $("#text").append(codes);
+                });
+                $("#btn2").on("click",function() {
+                    $("#text").prepend(codes);
+                });
+
+
+            })
+            
+
+        </script>
+
+    </body>
+</html>
