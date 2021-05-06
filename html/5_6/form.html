@@ -7,11 +7,11 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <body>
 
-        <input type="checkbox" name="mycheck" value="1"><br />
-        <input type="checkbox" name="mycheck" value="2"><br />
-        <input type="checkbox" name="mycheck" value="3"><br />
-        <input type="checkbox" name="mycheck" value="4"><br />
-        <input type="checkbox" name="mycheck" value="5"><br />
+        <input type="checkbox" name="mycheck" value="1"><br/>
+        <input type="checkbox" name="mycheck" value="2"><br/>
+        <input type="checkbox" name="mycheck" value="3"><br/>
+        <input type="checkbox" name="mycheck" value="4"><br/>
+        <input type="checkbox" name="mycheck" value="5"><br/>
 
         <button id="log">log</button>
         <button id="allcheck">all checked</button>
@@ -21,45 +21,40 @@
 
         <script>
 
-            $(function() {
+            $(function () {
                 let count = $("input:checkbox[name=mycheck]").length;
                 console.log(count);
-                $("#log").on("click", function() {
+                $("#log").on("click", function () {
                     let checkbtn = $("input:checkbox[name=mycheck]:checked").length;
                     console.log(checkbtn);
                 });
-                $("#allcheck").on("click", function() {
-                    $("input:checkbox[name=mycheck]")
-                    .prop("checked", true);
+                $("#allcheck").on("click", function () {
+                    $("input:checkbox[name=mycheck]").prop("checked", true);
                 });
-                $("#allclear").on("click", function() {
-                    $("input:checkbox[name=mycheck]")
-                    .prop("checked", false);
+                $("#allclear").on("click", function () {
+                    $("input:checkbox[name=mycheck]").prop("checked", false);
                 });
-                $("#btn4").on("click", function() {
-                    let count = 0; 
-                    $("input:checkbox[name=mycheck]")
-                    .each(function(){
-                        if(count % 2 == 0) {
-                            $(this).prop("checked", true); 
+                $("#btn4").on("click", function () {
+                    let count = 0;
+                    $("input:checkbox[name=mycheck]").each(function () {
+                        if (count % 2) {
+                            $(this).prop("checked", true);
                         }
                         count++;
                     });
                 });
-                $("#btn5").on("click", function() {
-                    let count = 0; 
-                    $("input:checkbox[name=mycheck]")
-                    .each(function(){
-                        if(count % 2 != 0) {
+                $("#btn5").on("click", function () {
+                    let count = 0;
+                    $("input:checkbox[name=mycheck]").each(function () {
+                        if (!(count % 2)) {
                             $(this).prop("checked", true);
                         }
                         count++;
-                });
+                    });
 
                 });
 
             });
-            
         </script>
 
     </body>
