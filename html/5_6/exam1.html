@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>exam1</title>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    </head>
+    <body>
+        <!-- <form action=""> -->
+            <div>
+                아이디  
+                <input type="text" id="id"><br />
+            </div>
+            <div>
+                비민번호
+                <input type="password" id="pw"><br />
+            </div>
+            
+            <div>
+                성별   
+            
+                남자
+                <input type="radio" name="sex">
+                여자
+                <input type="radio" name="sex">
+            </div>
+            
+            <div>
+                직업
+                <select id="job" >
+                    <option value=""></option>
+                    <option value="1">의사</option>
+                    <option value="2">개발자</option>
+                    <option value="3">요리사</option>
+                </select>
+                
+                <br />   
+            </div>
+            
+            <div>
+                취미   
+                <input type="checkbox" name="check2">개발
+                <input type="checkbox" name="check2">게임
+                <input type="checkbox" name="check2">낚시<br />
+                <input type="checkbox" name="check2">운동
+                <input type="checkbox" name="check2">독서
+                <input type="checkbox" name="check2">음악감상
+            </div>
+    
+            <input type="reset" value="취소">
+
+            <button id="btn2">회원가입</button>
+            <button id="btn3">확인</button>
+        <!-- </form> -->
+        
+        
+        
+        <script>
+            $("#btn3").on("click", function() {
+            var hob777 = $("input:checkbox[name=check2]:checked").length+0;
+                console.log($("input:checkbox[name=check2]:checked").length);
+                console.log(hob777);
+            })
+
+            $("#btn2").on("click", function() {
+                var regExp = /^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$/i;
+
+                if($("#id").val().match(regExp) == null) {
+                    alert('이메일을 입력 해 주세요');
+                    return 0
+                }
+                if($("#pw").val() == null) {
+                    alert('암호를 입력 해 주세요');
+                    return 0
+                }
+                if($("input:radio[name=sex]:checked").length == 0) {
+                    alert('성별를 입력 해 주세요');
+                    return 0
+                }
+                if($("#job").val() == "") {
+                    alert('직업를 입력 해 주세요');
+                    return 0
+                }
+                if($("input:checkbox[name=check2]:checked").val().length >= 3) {
+                    alert('취미를 3개 이상 입력 해 주세요');
+                    return 0
+                }
+                else {
+                    alert("회원가입이 완료 되었습니다.")
+                }
+            })
+        </script>
+        
+
+    </body>
+</html>
