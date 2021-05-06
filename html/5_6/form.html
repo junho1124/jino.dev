@@ -7,12 +7,34 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <body>
 
-        <input type="text" id="text">
+        <input type="checkbox" name="mycheck" value="1"><br />
+        <input type="checkbox" name="mycheck" value="2"><br />
+        <input type="checkbox" name="mycheck" value="3"><br />
+        <input type="checkbox" name="mycheck" value="4"><br />
+        <input type="checkbox" name="mycheck" value="5"><br />
+
+        <button id="log">log</button>
+        <button id="allcheck">all checked</button>
+        <button id="allclear">all clear</button>
 
         <script>
+
             $(function() {
-                $("#text").val("1234");
-                alert($("#text").val);
+                let count = $("input:checkbox[name=mycheck]").length;
+                console.log(count);
+                $("#log").on("click", function() {
+                    let checkbtn = $("input:checkbox[name=mycheck]:checked").length;
+                    console.log(checkbtn);
+                });
+                $("#allcheck").on("click", function() {
+                    $("input:checkbox[name=mycheck]")
+                    .prop("checked", true);
+                });
+                $("#allclear").on("click", function() {
+                    $("input:checkbox[name=mycheck]")
+                    .prop("checked", false);
+                });
+
             })
             
         </script>
