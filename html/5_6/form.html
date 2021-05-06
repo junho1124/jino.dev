@@ -16,6 +16,8 @@
         <button id="log">log</button>
         <button id="allcheck">all checked</button>
         <button id="allclear">all clear</button>
+        <button id="btn4">짝수</button>
+        <button id="btn5">홀수</button>
 
         <script>
 
@@ -34,9 +36,31 @@
                     $("input:checkbox[name=mycheck]")
                     .prop("checked", false);
                 });
+                $("#btn4").on("click", function() {
+                    let count = 0; 
+                    $("input:checkbox[name=mycheck]")
+                    .each(function(){
+                        if(count % 2 == 0) {
+                            $(this).prop("checked", true); 
+                        }
+                        count++;
+                    });
+                });
+                $("#btn5").on("click", function() {
+                    let count = 0; 
+                    $("input:checkbox[name=mycheck]")
+                    .each(function(){
+                        if(count % 2 != 0) {
+                            $(this).prop("checked", true);
+                        }
+                        count++;
+                });
 
-            })
+                });
+
+            });
             
         </script>
+
     </body>
 </html>
