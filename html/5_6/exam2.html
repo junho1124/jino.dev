@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>exam2</title>
+    </head>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <body>
+        <table border="1px solid black">
+            <tr>
+                <td><input type="checkbox" id="all">확인</td>
+                <td class="title">제목</td>
+                <td>글쓴시간</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="ck"></td>
+                <td class="title">11111</td>
+                <td>11:11:00</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="ck"></td>
+                <td class="title">22222</td>
+                <td>11:11:00</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="ck"></td>
+                <td class="title">33333</td>
+                <td>11:11:00</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="ck"></td>
+                <td class="title">44444</td>
+                <td>11:11:00</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="ck"></td>
+                <td class="title">555555</td>
+                <td>11:11:00</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="ck"></td>
+                <td class="title">666666</td>
+                <td>11:11:00</td>
+            </tr>
+        </table>
+        <button id="btn">로그</button>
+
+        <script>
+            
+            $(function(){
+                $("#all").on("click", function() {
+                    if($(this).prop("checked") == true){
+                        $("input:checkbox[name=ck]").prop("checked", true);
+                    } else {
+                        $("input:checkbox[name=ck]").prop("checked", false);
+                    }
+                })  
+
+                $("#btn").on("click", function() {
+                    console.log($("input:checkbox[name=ck]:checked").length);
+                    if ($("input:checkbox[name=ck]:checked").length == 0) {
+                        alert("체크된게 없습니다.")
+                    } else {
+                        $("input:checkbox[name=ck]:checked").each
+                    }
+                    
+                })
+            })
+        </script>
+    </body>
+</html>
