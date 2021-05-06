@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>exam3</title>
+        <style>
+            body
+            {
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+            }
+            .main
+            {
+                position: absolute;
+                top: 40%;
+                left: 40%;
+            }
+            button
+            {
+                position: relative;
+                float: left;
+                margin: 10px;
+                width: 100px;
+                height: 30px;
+                text-align: center;
+                line-height: 30px;
+                cursor: pointer;
+                box-shadow: 2px 2px black;
+                border-radius: 5px;
+            }
+            .gray
+            {
+                
+                background-color: gray;
+                color: white;
+                
+            }
+            .white
+            {
+                
+                background-color: white;
+                color: black;
+                border: black 1px solid;
+            }
+        </style>
+    </head>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <body>
+        <div class="main">
+            <button id="div1">html</button>
+            <button id="div2">css</button>
+            <button id="div3">javascript</button>
+        </div>
+        <script>
+            $("button").attr("class","gray")
+
+            $("#div1").on("click",function() {
+                $("button").attr("class","gray")
+                $("#div1").attr("class","white")
+            })
+            $("#div2").on("click",function() {
+                $("button").attr("class","gray")
+                $("#div2").attr("class","white")
+            })
+            $("#div3").on("click",function() {
+                $("button").attr("class","gray")
+                $("#div3").attr("class","white")
+            })
+        </script>
+    </body>
+</html>

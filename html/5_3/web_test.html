@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web</title>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script>
+            $(function() {
+                $("#btn").click(function() {
+                    alert("클릭!!!");
+                    //flutter에 알림을 전송
+                    messageHnadler.postMessage("click");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        
+        <button id="btn">버튼</button>
+        
+
+    </body>
+</html>
