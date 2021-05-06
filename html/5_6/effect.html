@@ -5,15 +5,65 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <body>
         
-        <div id="test" style="display: block; width: 300px; height: 300px; background-color: aqua;">
-
+        <div style="position: relative; display: block; width: 300px; height: 300px; border: 1px solid;">
+            <img id="test" src="https://w7.pngwing.com/pngs/920/396/png-transparent-new-super-mario-bros-u-super-mario-bros-2-mario-bros.png" alt="mario" height="30px" style="position: absolute;">
         </div>
-        <script>
 
-            $("#test").fadeOut(1000);
-            $("#test").fadeIn(1000);
-            $("#test").slideUp(1000);
-            $("#test").slideDown(1000);
+        <button id="left" style="position: absolute; top: 350px;">left</button>
+        <button id="right" style="position: absolute; top: 350px; left: 100px;">right</button>
+        <button id="up" style="position: absolute; top: 300px; left: 50px;">up</button>
+        <button id="down" style="position: absolute; top: 350px; left: 50px;">down</button>
+        <script>
+            $("#left").on("click", function() {
+                $("#test").animate(
+                {left:"-=100px"}
+                ,
+                500
+                );
+                })
+            $("#right").on("click", function() {
+                $("#test").animate(
+                {right:"-=100px"}
+                ,
+                500
+                );
+                })
+            $("#up").on("click", function() {
+                $("#test").animate(
+                {top:"-=100px"}
+                ,
+                500
+                );
+                })
+            $("#down").on("click", function() {
+                $("#test").animate(
+                {bottom:"-=100px"}
+                ,
+                500
+                );
+                })
+
+
+            $(document).keydown(function(event) {
+                if (event.keyCode == '37') {
+                    $("#test").animate({left:"-=50px"},200);
+                    console.log("왼쪽");
+                }  
+                if (event.keyCode == '39') {
+                    $("#test").animate({right:"-=50px"},200);
+                    console.log("오른쪽");
+                } 
+                if (event.keyCode == '38') {
+                    $("#test").animate({top:"-=50px"},200);
+                    console.log("위쪽");
+                } 
+                if (event.keyCode == '40') {
+                    $("#test").animate({bottom:"-=50px"},200);
+                    console.log("아래쪽");
+                }
+                });
+
+            
         </script>
     </body>
 </html>
