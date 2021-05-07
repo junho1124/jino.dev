@@ -6,7 +6,7 @@
     <body>
         
         <div style="position: relative; display: block; width: 300px; height: 300px; border: 1px solid;">
-            <img id="test" src="https://w7.pngwing.com/pngs/920/396/png-transparent-new-super-mario-bros-u-super-mario-bros-2-mario-bros.png" alt="mario" height="30px" style="position: absolute;">
+            <img id="test" src="https://w7.pngwing.com/pngs/920/396/png-transparent-new-super-mario-bros-u-super-mario-bros-2-mario-bros.png" alt="mario" height="100px" style="position: absolute;">
         </div>
 
         <button id="left" style="position: absolute; top: 350px;">left</button>
@@ -45,10 +45,21 @@
 
 
             $(document).keydown(function(event) {
-                if (event.keyCode == '37') {
-                    $("#test").animate({left:"-=50px"},200);
+                if (event.keyCode == '37') 
+                // {
+                //     if ($("#test").css("top") < 0) {
+                //     $("#test").css("top") = 50
+                // } else 
+                {
+                    console.log($("#test").css("left"))
+                    if ($("#test").css("left") < 50) {
+                        $("#test").css("left","50px");
+                    } else {
+                        $("#test").animate({left:"-=50px"},200);
                     console.log("왼쪽");
-                }  
+                    }
+                }
+                
                 if (event.keyCode == '39') {
                     $("#test").animate({right:"-=50px"},200);
                     console.log("오른쪽");
